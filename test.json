@@ -1,0 +1,157 @@
+{
+    "inbounds": [
+        {
+            "listen": "127.0.0.1",
+            "port": 10808,
+            "protocol": "socks",
+            "settings": {
+                "allowTransparent": false,
+                "auth": "noauth",
+                "udp": true
+            },
+            "sniffing": {
+                "destOverride": [
+                    "http",
+                    "tls"
+                ],
+                "enabled": true,
+                "routeOnly": false
+            },
+            "tag": "socks"
+        },
+        {
+            "listen": "127.0.0.1",
+            "port": 10809,
+            "protocol": "http",
+            "settings": {
+                "allowTransparent": false,
+                "auth": "noauth",
+                "udp": true
+            },
+            "sniffing": {
+                "destOverride": [
+                    "http",
+                    "tls"
+                ],
+                "enabled": true,
+                "routeOnly": false
+            },
+            "tag": "http"
+        }
+    ],
+    "log": {
+        "access": "",
+        "error": "",
+        "loglevel": "warning"
+    },
+    "outbounds": [
+        {
+            "mux": {
+                "concurrency": 2,
+                "enabled": true,
+                "xudpConcurrency": 2,
+                "xudpProxyUDP443": "allow"
+            },
+            "protocol": "vmess",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "104.21.44.106",
+                        "port": 443,
+                        "users": [
+                            {
+                                "alterId": 0,
+                                "email": "t@t.tt",
+                                "encryption": "none",
+                                "flow": "",
+                                "id": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+                                "security": "auto"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "ws",
+                "security": "tls",
+                "sockopt": {
+                    "dialerProxy": "fragment",
+                    "mark": 255,
+                    "tcpKeepAliveIdle": 100,
+                    "tcpNoDelay": true
+                },
+                "tlsSettings": {
+                    "allowInsecure": false,
+                    "alpn": [
+                        "h2",
+                        "http/1.1"
+                    ],
+                    "fingerprint": "chrome",
+                    "serverName": "xmiviDEo.Cfd",
+                    "show": false
+                },
+                "wsSettings": {
+                    "headers": {
+                        "Host": "xmiviDEo.Cfd"
+                    },
+                    "path": "/linkws"
+                }
+            },
+            "tag": "proxy"
+        },
+        {
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "AsIs",
+                "fragment": {
+                    "interval": "350",
+                    "length": "100",
+                    "packets": "tlshello"
+                }
+            },
+            "streamSettings": {
+                "sockopt": {
+                    "tcpKeepAliveIdle": 100,
+                    "tcpNoDelay": true
+                }
+            },
+            "tag": "fragment"
+        },
+        {
+            "protocol": "freedom",
+            "settings": {
+            },
+            "tag": "direct"
+        },
+        {
+            "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
+            "tag": "block"
+        }
+    ],
+    "remarks": "CF vmess ShadowProxy66 8 (IRCF Fragment)",
+    "routing": {
+        "domainStrategy": "AsIs",
+        "rules": [
+            {
+                "enabled": true,
+                "inboundTag": [
+                    "api"
+                ],
+                "outboundTag": "api",
+                "type": "field"
+            },
+            {
+                "enabled": true,
+                "id": "5627785659655799759",
+                "outboundTag": "proxy",
+                "port": "0-65535",
+                "type": "field"
+            }
+        ]
+    }
+}
