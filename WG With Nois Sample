@@ -1,0 +1,19 @@
+{
+  "outbounds": [
+    {
+      "type": "wireguard",
+      "tag": "w1",
+      "local_address": [
+        "10.71.241.197/32",
+        "fc00:bbbb:bbbb:bb01::8:f1c4/128"
+      ],
+      "private_key": "",
+      "server": "",
+      "server_port": ,
+      "peer_public_key": "",
+      "fake_packets": "5-10",
+      "fake_packets_size": "25-50",
+      "fake_packets_delay": "4-8"
+    }
+  ]
+}
