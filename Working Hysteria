@@ -1,0 +1,240 @@
+{
+  "outbounds": [
+   {
+      "type": "hysteria2",
+      "tag": "🇺🇸15@oneclickvpnkeys § 76",
+      "server": "us-03.worldfirst.eu.org",
+      "server_port": 44300,
+      "password": "07c490cb-65e7-476e-8643-59a3571361e8",
+      "tls": {
+        "enabled": true,
+        "server_name": "us-01.worldfirst.eu.org",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸14@oneclickvpnkeys § 77",
+      "server": "us-04.worldfirst.eu.org",
+      "server_port": 44300,
+      "password": "07c490cb-65e7-476e-8643-59a3571361e8",
+      "tls": {
+        "enabled": true,
+        "server_name": "us-01.worldfirst.eu.org",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸19@oneclickvpnkeys § 78",
+      "server": "us-03.worldfirst.eu.org",
+      "server_port": 44300,
+      "password": "1a6d63c2-1ee5-41ea-be0d-678027c1656d",
+      "tls": {
+        "enabled": true,
+        "server_name": "us-01.worldfirst.eu.org",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸12@oneclickvpnkeys § 79",
+      "server": "us-04.worldfirst.eu.org",
+      "server_port": 44300,
+      "password": "1a6d63c2-1ee5-41ea-be0d-678027c1656d",
+      "tls": {
+        "enabled": true,
+        "server_name": "us-01.worldfirst.eu.org",
+        "insecure": true
+      }
+    },
+	    {
+      "type": "hysteria2",
+      "tag": "🇺🇸20@oneclickvpnkeys § 83",
+      "server": "us-04.worldfirst.eu.org",
+      "server_port": 44300,
+      "password": "97ffad1a-da4e-4453-a956-2d840bc3115e",
+      "tls": {
+        "enabled": true,
+        "server_name": "us-01.worldfirst.eu.org",
+        "insecure": true
+      }
+    },
+	    {
+      "type": "hysteria2",
+      "tag": "🇺🇸16@oneclickvpnkeys § 85",
+      "server": "us-02.worldfirst.eu.org",
+      "server_port": 44300,
+      "password": "b86dec27-95bb-4933-9e3c-eb7663ebfeb7",
+      "tls": {
+        "enabled": true,
+        "server_name": "us-01.worldfirst.eu.org",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸18@oneclickvpnkeys § 86",
+      "server": "us-02.worldfirst.eu.org",
+      "server_port": 44300,
+      "password": "de3c6567-1177-4b60-b1b0-89ea8b406c1b",
+      "tls": {
+        "enabled": true,
+        "server_name": "us-01.worldfirst.eu.org",
+        "insecure": true
+      }
+    },
+	 {
+      "type": "hysteria2",
+      "tag": "🇺🇸13@oneclickvpnkeys § 89",
+      "server": "us-04.worldfirst.eu.org",
+      "server_port": 44300,
+      "password": "fc38fd12-2f14-442a-91f0-1967055e9c08",
+      "tls": {
+        "enabled": true,
+        "server_name": "us-01.worldfirst.eu.org",
+        "insecure": true
+      }
+    },
+	    {
+      "type": "hysteria2",
+      "tag": "🔒 HYSTERIA-UDP 🇫🇷 FR-51.15.19.206:8443 § 3",
+      "server": "51.15.19.206",
+      "server_port": 8443,
+      "obfs": {
+        "type": "salamander",
+        "password": "HysteriaHowdy"
+      },
+      "password": "HowdyHysteria2023w0W",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni-here.com",
+        "insecure": true
+      }
+    },
+	{
+  "server": "hysteria.udpgw.com",
+  "server_port": 8443,
+  "tag": "⚓4@oneclickvpnkeys-2",
+  "type": "hysteria2",
+  "password": "HowdyHysteria2023w0W",
+  "obfs": {
+    "password": "HysteriaHowdy",
+    "type": "salamander"
+  },
+  "tls": {
+    "enabled": true,
+    "server_name": "sni-here.com",
+    "insecure": true
+  }
+},
+{
+  "server": "18.179.16.135",
+  "server_port": 3074,
+  "tag": "🔒 HYSTERIA-UDP 🇯🇵 JP-18.179.16.135:3074",
+  "type": "hysteria2",
+  "password": "NDUzMjA1OjI1NDg4OjgyN2YwYjdkMTQwOWFhYmQ",
+  "tls": {
+    "enabled": true,
+    "server_name": "TG.@WangCai2",
+    "insecure": true
+  }
+},
+{
+  "server": "45.11.104.44",
+  "server_port": 3074,
+  "tag": "🔒 HYSTERIA-UDP 🇺🇸 US-45.11.104.44:3074",
+  "type": "hysteria2",
+  "password": "NDUzMjA1OjI1NDg4OjgyN2YwYjdkMTQwOWFhYmQ",
+  "tls": {
+    "enabled": true,
+    "server_name": "TG.@WangCai2",
+    "insecure": true
+  }
+},
+{
+  "server": "18.183.245.244",
+  "server_port": 3074,
+  "tag": "🔒 HYSTERIA-UDP 🇯🇵 JP-18.183.245.244:3074",
+  "type": "hysteria2",
+  "password": "NDUzMjA1OjI1NDg4OjgyN2YwYjdkMTQwOWFhYmQ",
+  "tls": {
+    "enabled": true,
+    "server_name": "TG.@WangCai2",
+    "insecure": true
+  }
+},
+{
+  "server": "57.180.35.76",
+  "server_port": 3074,
+  "tag": "🔒 HYSTERIA-UDP 🇯🇵 JP-57.180.35.76:3074",
+  "type": "hysteria2",
+  "password": "NDUzMjA1OjI1NDg4OjgyN2YwYjdkMTQwOWFhYmQ",
+  "tls": {
+    "enabled": true,
+    "server_name": "TG.@WangCai2",
+    "insecure": true
+  }
+},
+{
+  "server": "52.199.249.206",
+  "server_port": 3074,
+  "tag": "🔒 HYSTERIA-UDP 🇯🇵 JP-52.199.249.206:3074",
+  "type": "hysteria2",
+  "password": "NDUzMjA1OjI1NDg4OjgyN2YwYjdkMTQwOWFhYmQ",
+  "tls": {
+    "enabled": true,
+    "server_name": "TG.@WangCai2",
+    "insecure": true
+  }
+},
+{
+  "server": "54.249.79.143",
+  "server_port": 3074,
+  "tag": "🔒 HYSTERIA-UDP 🇯🇵 JP-54.249.79.143:3074",
+  "type": "hysteria2",
+  "password": "NDUzMjA1OjI1NDg4OjgyN2YwYjdkMTQwOWFhYmQ",
+  "tls": {
+    "enabled": true,
+    "server_name": "TG.@WangCai2",
+    "insecure": true
+  }
+},
+{
+  "server": "54.250.34.221",
+  "server_port": 3074,
+  "tag": "🔒 HYSTERIA-UDP 🇯🇵 JP-54.250.34.221:3074",
+  "type": "hysteria2",
+  "password": "NDUzMjA1OjI1NDg4OjgyN2YwYjdkMTQwOWFhYmQ",
+  "tls": {
+    "enabled": true,
+    "server_name": "TG.@WangCai2",
+    "insecure": true
+  }
+},
+{
+  "server": "52.194.254.229",
+  "server_port": 3074,
+  "tag": "🔒 HYSTERIA-UDP 🇯🇵 JP-52.194.254.229:3074",
+  "type": "hysteria2",
+  "password": "NDUzMjA1OjI1NDg4OjgyN2YwYjdkMTQwOWFhYmQ",
+  "tls": {
+    "enabled": true,
+    "server_name": "TG.@WangCai2",
+    "insecure": true
+  }
+},
+{
+  "server": "54.64.148.82",
+  "server_port": 3074,
+  "tag": "🔒 HYSTERIA-UDP 🇯🇵 JP-54.64.148.82:3074",
+  "type": "hysteria2",
+  "password": "NDUzMjA1OjI1NDg4OjgyN2YwYjdkMTQwOWFhYmQ",
+  "tls": {
+    "enabled": true,
+    "server_name": "TG.@WangCai2",
+    "insecure": true
+  }
+}
+  ]
+}
